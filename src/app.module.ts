@@ -10,6 +10,7 @@ import { ReviewModule } from './review/review.module';
 import { FeedController } from './feed/feed.controller';
 import { FeedService } from './feed/feed.service';
 import { FeedModule } from './feed/feed.module';
+import { OfferModule } from './offer/offer.module';
 import { CategoryModule } from './category/category.module';
 
 @Module({
@@ -33,6 +34,7 @@ import { CategoryModule } from './category/category.module';
     MailModule,
     ReviewModule,
     FeedModule,
+    OfferModule,
     CategoryModule,
   ],
   providers: [
